@@ -14,6 +14,7 @@
 		AC54FED81E7638F9000194CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC54FED61E7638F9000194CB /* LaunchScreen.storyboard */; };
 		AC54FEE31E7638F9000194CB /* caltipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FEE21E7638F9000194CB /* caltipsTests.swift */; };
 		AC54FEEE1E7638FA000194CB /* caltipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FEED1E7638FA000194CB /* caltipsUITests.swift */; };
+		AC54FEFC1E76806E000194CB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC54FEFB1E76806E000194CB /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AC54FEE91E7638FA000194CB /* caltipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = caltipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC54FEED1E7638FA000194CB /* caltipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = caltipsUITests.swift; sourceTree = "<group>"; };
 		AC54FEEF1E7638FA000194CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC54FEFB1E76806E000194CB /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ../SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		AC54FECC1E7638F9000194CB /* caltips */ = {
 			isa = PBXGroup;
 			children = (
+				AC54FEFB1E76806E000194CB /* SettingsViewController.swift */,
 				AC54FECD1E7638F9000194CB /* AppDelegate.swift */,
 				AC54FECF1E7638F9000194CB /* ViewController.swift */,
 				AC54FED11E7638F9000194CB /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				AC54FED01E7638F9000194CB /* ViewController.swift in Sources */,
 				AC54FECE1E7638F9000194CB /* AppDelegate.swift in Sources */,
+				AC54FEFC1E76806E000194CB /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = caltips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omnix.caltips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = caltips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.omnix.caltips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +509,7 @@
 				AC54FEF41E7638FA000194CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC54FEF51E7638FA000194CB /* Build configuration list for PBXNativeTarget "caltipsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +518,7 @@
 				AC54FEF71E7638FA000194CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC54FEF81E7638FA000194CB /* Build configuration list for PBXNativeTarget "caltipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +527,7 @@
 				AC54FEFA1E7638FA000194CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
